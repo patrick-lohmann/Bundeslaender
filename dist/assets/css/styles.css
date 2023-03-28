@@ -135,7 +135,7 @@ a {
   --clr-card: #fafcff;
   --clr-accent: #F89E0D;
   --shadow: rgba(170, 187, 202, 0.15);
-  --bg-eagle: url("../img/bg-light.svg");
+  --bg-eagle: url("../img/bg-light");
 }
 
 [data-theme=dark] {
@@ -144,5 +144,5 @@ a {
   --clr-card: #313336;
   --clr-accent: #F76408;
   --shadow: rgba(0, 0, 0, 0.15);
-  --bg-eagle: url("../img/bg-dark.svg");
+  --bg-eagle: url("../img/bg-dark");
 }

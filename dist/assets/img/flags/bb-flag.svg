@@ -20,7 +20,7 @@
     </style>
   </defs>
   <g id="Ebene_1-2" data-name="Ebene 1">
-    <g id="bb-flag-coa.svg.svg">
+    <g id="bb-flag-coa">
       <rect id="Weisse_Flaeche" data-name="Weisse Flaeche" class="cls-2" y="30" width="100" height="30"/>
       <rect id="Rote_Flaeche" data-name="Rote Flaeche" class="cls-4" width="100" height="30"/>
       <path id="Schildflaeche" class="cls-2" d="m35.05,12.17v12.66c0,4.22-.3,8.67.61,12.08.86,3.23,2.73,5.79,5.03,7.66,1.15.94,2.43,1.73,4.01,2.32,1.55.58,3.32,1.04,5.34,1.02,4.03-.04,7.08-1.52,9.34-3.35,2.3-1.85,4.15-4.48,4.98-7.71.88-3.43.61-7.85.61-12.08v-12.69h-29.88s-.03.04-.03.08Z"/>
