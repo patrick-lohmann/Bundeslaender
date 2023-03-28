@@ -1,0 +1,13 @@
+mixin stateCard(name, abbr)
+  article.slider__item.card.card--state
+    .card__head.row
+      h2.card__title
+        span.state-name= name
+        span.state-abbr= abbr
+
+    .card__content.row
+      .card__coa
+        .img
+      .card__cta
+        a(href="#").btn.btn--info
+        span.btn__text Info

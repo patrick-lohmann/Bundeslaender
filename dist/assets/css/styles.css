@@ -1,0 +1,148 @@
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins/poppins-v20-latin-regular.woff2") format("woff2"), url("../fonts/poppins/poppins-v20-latin-regular.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/poppins/poppins-v20-latin-italic.woff2") format("woff2"), url("../fonts/poppins/poppins-v20-latin-italic.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins/poppins-v20-latin-500.woff2") format("woff2"), url("../fonts/poppins/poppins-v20-latin-500.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins/poppins-v20-latin-600.woff2") format("woff2"), url("../fonts/poppins/poppins-v20-latin-600.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins/poppins-v20-latin-700.woff2") format("woff2"), url("../fonts/poppins/poppins-v20-latin-700.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/poppins/poppins-v20-latin-800.woff2") format("woff2"), url("../fonts/poppins/poppins-v20-latin-800.woff") format("woff");
+}
+:root {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  --clr-white-100: white;
+  --clr-black-100: black;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: var(--clr-body);
+  color: var(--clr-text);
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: min(100% - 1em, 75em);
+  margin-inline: auto;
+}
+.container--fluid {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex-basis: 100%;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.app::before {
+  content: "";
+  display: block;
+  position: absolute;
+  inset: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  width: min(100% - 4rem, 70rem);
+  aspect-ratio: 1;
+  background: var(--bg-eagle) no-repeat center/cover;
+}
+.app__inner {
+  flex-direction: column;
+}
+
+.app-footer {
+  width: 100%;
+  height: 7rem;
+  position: fixed;
+  bottom: 0;
+}
+.app-footer .container {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+[data-theme=light] {
+  --clr-body: #f4f4fd;
+  --clr-text: #253240;
+  --clr-card: #fafcff;
+  --clr-accent: #F89E0D;
+  --shadow: rgba(170, 187, 202, 0.15);
+  --bg-eagle: url("../img/bg-light.svg");
+}
+
+[data-theme=dark] {
+  --clr-body: #131619;
+  --clr-text: #FFFFFD;
+  --clr-card: #313336;
+  --clr-accent: #F76408;
+  --shadow: rgba(0, 0, 0, 0.15);
+  --bg-eagle: url("../img/bg-dark.svg");
+}

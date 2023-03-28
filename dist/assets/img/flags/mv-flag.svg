@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #f1e625;
+      }
+
+      .cls-3 {
+        fill: #de092b;
+      }
+
+      .cls-4 {
+        fill: #2c59a4;
+      }
+    </style>
+  </defs>
+  <g id="Ebene_1-2" data-name="Ebene 1">
+    <g id="mv-flag-coa.svg.svg">
+      <path class="cls-1" d="m0,0h100v60H0"/>
+      <path class="cls-4" d="m0,0h100v16H0"/>
+      <path class="cls-2" d="m0,28h100v4H0"/>
+      <path class="cls-3" d="m0,44h100v16H0"/>
+    </g>
+  </g>
+</svg>

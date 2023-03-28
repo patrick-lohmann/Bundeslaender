@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #039239;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #e3061d;
+      }
+    </style>
+  </defs>
+  <g id="Ebene_1-2" data-name="Ebene 1">
+    <g id="nw-flag-coa.svg.svg">
+      <rect class="cls-2" width="100" height="40"/>
+      <rect class="cls-1" width="100" height="20"/>
+      <rect class="cls-3" y="40" width="100" height="20"/>
+    </g>
+  </g>
+</svg>
